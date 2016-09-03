@@ -9,12 +9,23 @@ Supported methods:
 * PUT
 * DELETE
 
+### How it works
+1. Import the manager
+    ``from flask_api_manager import Auth``
+2. Create the 'auth' variable
+    ``auth = Auth(ApiModel)``
+3. Protect your Flask-Restful API methods
+    ``@auth.auth('get')``
+    ``@auth.auth('post')``
+    ``@auth.auth('put')``
+    ``@auth.auth('delete')``
+
 ### Demo?
 
 1. Git clone <link>
 2. _cd_ directory
 3. Run ``sudo pip3 install -r requirements.txt``
-4. Open Python3 / Ipython3
+4. Open Python3 / IPython3
     ```
     from exampe import db
     db.create_all()
