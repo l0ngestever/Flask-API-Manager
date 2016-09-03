@@ -9,7 +9,7 @@ Supported methods:
 * PUT
 * DELETE
 
-### How it works
+## How it works
 1. Import the manager
 
     ``from flask_api_manager import Auth``
@@ -27,7 +27,7 @@ Supported methods:
     @auth.auth('delete')
     ```
 
-### Demo?
+## Demo?
 
 1. Git clone <link>
 2. _cd_ directory
@@ -48,8 +48,8 @@ Supported methods:
 
 Note: It will use the app.db SQLite file, located in the Git repository.
 
-#### Results:
-##### GET Method
+### Results:
+#### GET Method
 ```
 curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b13101ee2891bd199bb06f" -X GET
 {
@@ -57,7 +57,7 @@ curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b
 }
 ```
 
-##### POST Method
+#### POST Method
 ```
 curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b13101ee2891bd199bb06f" -X GET
 {
@@ -65,7 +65,7 @@ curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b
 }
 ```
 
-##### PUT Method
+#### PUT Method
 ```
 curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b13101ee2891bd199bb06f" -X GET
 {
@@ -73,7 +73,7 @@ curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b
 }
 ```
 
-##### DELETE Method
+#### DELETE Method
 ```
 curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b13101ee2891bd199bb06f" -X GET
 {
@@ -81,6 +81,6 @@ curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b
 }
 ```
 
-### Requirements
+## Requirements
 
 Flask-API-Management used Flask_restful. See requirements.txt for more details.
