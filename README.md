@@ -59,7 +59,7 @@ curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b
 
 #### POST Method
 ```
-curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b13101ee2891bd199bb06f" -X GET
+curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b13101ee2891bd199bb06f" -X POST
 {
   "Message": "Hello World!"
 }
@@ -67,7 +67,7 @@ curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b
 
 #### PUT Method
 ```
-curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b13101ee2891bd199bb06f" -X GET
+curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b13101ee2891bd199bb06f" -X PUT
 {
   "Message": "Hello World!"
 }
@@ -75,7 +75,7 @@ curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b
 
 #### DELETE Method
 ```
-curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b13101ee2891bd199bb06f" -X GET
+curl http://127.0.0.1:5000/ -u "test:a78297072831af169e308a655254aa2f2264567453b13101ee2891bd199bb06f" -X DELETE
 {
   "Message": "Not authorized."
 }
